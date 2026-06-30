@@ -1,0 +1,23 @@
+# --- System Files ---
+.DS_Store
+Thumbs.db
+
+# --- Environment Secrets ---
+*.env
+.env.*
+
+# --- Python / Backend Specific ---
+**/__pycache__/
+**/*.py[cod]
+**/*$py.class
+**/.venv/
+**/venv/
+**/env/
+
+# --- Flutter / Frontend Specific ---
+**/build/
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.packages
+**/generated/
